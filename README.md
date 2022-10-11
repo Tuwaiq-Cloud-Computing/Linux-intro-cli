@@ -45,7 +45,8 @@ Command used: TZ=“Aisa/Dubai” date 1> calendar.txt
 
 -	Use this command echos “Oh there is an error” then save the error(output) if appears to file called logs.txt
 
-Command used: echo “oh there is an error” 2> log.txt
+Command used: echos “oh there is an error” 2> log.txt
+output: no error shown becuase it was saved into the log.txt file
 
  After every task write the command you used 
  and the output you got in this README.md file
