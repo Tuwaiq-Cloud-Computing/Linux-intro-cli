@@ -79,3 +79,4 @@ Tue Oct 11 12:23:44 PM Dubai 2022
        : cat logs                      
 output :cat: 'ecchoshello word': No such file or directory
 ______________________________
+-
