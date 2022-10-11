@@ -25,4 +25,39 @@ You can use man to know more about hostname.
 **Always remember to use man command to explore the commands you are using!**
 
 
+Command: whoami
+Output: kali
+
+Command: hostname
+Output: kali
+
+Command: wc Faisal   
+Output: 0 0 0 Faisal
+
+Command: w
+Output: 07:58:07 up 16 min,  1 user,  load average: 0.03, 0.03, 0.01
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+kali     tty7     :0               07:42    1:46m 11.86s  0.30s xfce4-sessio
+
+Command: history
+!30
+Clear 
+Output: 
+
+Command: uptime
+Output: 08:09:34 up 27 min,  1 user,  load average: 0.04, 0.05, 0.01
+
+Command: TZ=emirates/DUBAI date
+
+Output:Tue Oct 11 12:04:23 PM emirates 2022
+
+Command: cat >> /home/kali/desktop/calendar.txt
+Output:cat >>/home/kali/desktop/calendar.txt 
+
+Command: echos 'oh there is an error'2> logs.txt
+Output: Command 'echos' not found, did you mean:
+  command 'echo' from deb coreutils
+Try: sudo apt install <deb name>
+
+
 
