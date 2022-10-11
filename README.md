@@ -1,28 +1,82 @@
-# Linux-intro-cli-task
+1/ └─$ whoami
+kali
+
+2/ └─$ hostname
+kali
+NAME
+       whoami - print effective userid
+
+SYNOPSIS
+       whoami [OPTION]...
+
+DESCRIPTION
+       Print  the  user name associated with the current effective user ID.
+       Same as id -un.
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+AUTHOR
+       Written by Richard Mlynarik.
+
+REPORTING BUGS
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+       Report   any   translation    bugs    to    <https://translationpro‐
+       ject.org/team/>
 
 
--	Use Command ` whoami ` and figure out the output.
-You can use man to know more about whoami.
 
-Command: ` Command ` <br/>
-Output: -------------------
+3/└─$ cat>>hanan.txt
+Hello this is HananAlghamdi
 
+4/└─$ wc hanan.txt
+ 3  9 58 hanan.txt
 
--	Use Command ` hostname ` and figure out the output.
-You can use man to know more about hostname.
--	Count how many words in any file in your system?
--	Find the logged in users in your system?
--	Use history command and run one of the processes that appears in the history without re-write the command?
--	Find since when your system was running?
--	Get the data and time in Dubai using CLI?
--	Store calendar output to a file called calender.txt
--	Use this command echos “Oh there is an error” then save the error(output) if appears to file called logs.txt
+5/─$ $ history 
+    1  
+    2  whome
+    3  clear
+    4  whomi
+    5  clear
+    6  whoami
+    7  hostname
+    8  man whoami
+    9  cat>>hanan.txt
+   10  wc hanan.txt
+   11  uptime
+   12  w
+   ┌──(kali㉿kali)-[~]
+└─$ !6
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ whoami
 
- After every task write the command you used 
- and the output you got in this README.md file
+6/┌──(kali㉿kali)-[~]
+└─$ uptime
+ 12:19:52 up  2:32,  1 user,  load average: 0.03, 0.05, 0.01
+ 
+ 7/┌──(kali㉿kali)-[~]
+└─$ TZ=Dubai date
+Tue Oct 11 04:26:58 PM Dubai 2022
 
+8/┌──(kali㉿kali)-[~]
+└─$ ncal>calender.txt
+                                                                             
+┌──(kali㉿kali)-[~]
+└─$ cat calender.txt  
+    October 2022      
+Su     2  9 16 23 30
+Mo     3 10 17 24 31
+Tu     4 11 18 25   
+We     5 12 19 26   
+Th     6 13 20 27   
+Fr     7 14 21 28   
+Sa  1  8 15 22 29   
+                    
 
-**Always remember to use man command to explore the commands you are using!**
-
+9/┌──(kali㉿kali)-[~]
+└─$ echo " oh there is an error" 2> logs.txt
 
 
