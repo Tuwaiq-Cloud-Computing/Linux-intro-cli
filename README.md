@@ -23,7 +23,7 @@ You can use man to know more about hostname.
 - After finishing the task take screen shot of the script and the output after run the script.
 - Then upload the pictures to the forked repo and then create a pull request.
 <p align="center">
-<img align="center" width=70% height=70% src="https://drive.google.com/drive/folders/1ZFHJ36NArZN-YEJDRx1yL6sg6foeKD7c?usp=share_link">
+<img align="center" width=70% height=70% src="0C5EC7C1-D3E9-48C8-A431-7D2C957F22B4.PNG">
 </p>
 
 
