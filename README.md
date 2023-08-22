@@ -11,7 +11,7 @@ You can use man to know more about hostname.
 -	Find since when your system was running?
 -	Get the date and time in Dubai using CLI?
 -	Store calendar output to a file called calender.txt
--	Use this command echos “Oh there is an error” then save the error(output) if appears to file called logs.txt
+-	Use this command ` echos “Oh there is an error” ` then save the error(output) if appears to file called logs.txt
 
 ## Additional Challenge:
 
