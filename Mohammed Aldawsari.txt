@@ -1,0 +1,148 @@
+zsh: corrupt history file /home/kali/.zsh_history
+┌──(kali㉿kali)-[~]
+└─$ whoami 
+kali
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ hostname
+kali
+                                                                                
+
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ history 
+    1  su
+    2  sudo passwd root
+    3  su
+    4  ifconfig
+    5  ping 8.8.8.8
+    6  su
+    7  crunch 8 12
+    8  su
+    9  su
+   10  su
+   11  nmap
+   12  su
+   13  ifconfig
+   14  ping 192.168.136.1
+   15  ping 192.168.136.2
+   16  su
+   17  pwd
+   18  su
+   19  pwd
+   20  su
+   21  scapy
+   22  su
+   23  pwd
+   24  su
+   25  ifconfig
+   26  su
+   27  pwd
+   28  su
+   29  ifconfig
+   30  su
+   31  ifconfig
+   32  ping 8.8.8.8
+   33  fping -a -g 10.142.111.0/24> /dev/null
+   34  ping 10.142.111.1
+   35  nmap -O 10.142.111.1
+   36  su
+   37  su
+   38  ls
+   39  su
+   40  telnet 192.168.136.134
+   41  ifconfig
+   42  su
+   43  locate password.lst
+   44  SU
+   45  ABC@123
+   46  su
+   47  ifconfig
+   48  su
+   49  ls
+   50  su
+   51  nmap -O 192.168.100.126
+   52  ifconfig
+   53  nmap -O 192.168.100.126
+   54  nmap -O 192.168.100.134
+   55  su 
+   56  ls
+   57  su
+   58  ifconfig
+   59  su
+   60  whoami
+   61  hostname
+   62  hist
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ !60
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ whoami
+kali
+                                                                                
+
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ sudo timedatectl set-timezone Asia/Dubai
+[sudo] password for kali: 
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ date
+Tue Aug 22 03:23:47 PM +04 2023
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ cal        
+Command 'cal' not found, but can be installed with:
+sudo apt install ncal
+Do you want to install it? (N/y)y
+sudo apt install ncal
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  fonts-roboto-slab libabsl20200923 libfam0 libgit2-1.1 libhttp-parser2.9
+  libllvm12 libmbedcrypto3 libmbedcrypto7 libmbedtls12 libmbedtls14
+  libmbedx509-0 libmbedx509-1 libmms0 libofa0 libperl5.32 libplacebo157
+  libwmf-0.2-7 libwmf0.2-7 libx264-160 libyara8 perl-modules-5.32
+  python3-ipaddr python3-twisted-bin
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  ncal
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 30.1 kB of archives.
+After this operation, 69.6 kB of additional disk space will be used.
+Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ncal amd64 12.1.7+nmu3
+Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ncal amd64 12.1.7+nmu3
+Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ncal amd64 12.1.7+nmu3
+Ign:1 http://http.kali.org/kali kali-rolling/main amd64 ncal amd64 12.1.7+nmu3
+0% [Working]
+Err:1 http://kali.cs.nctu.edu.tw/kali kali-rolling/main amd64 ncal amd64 12.1.7+nmu3
+  Could not resolve 'http.kali.org'
+E: Failed to fetch http://kali.cs.nctu.edu.tw/kali/pool/main/b/bsdmainutils/ncal_12.1.7%2bnmu3_amd64.deb  Could not resolve 'http.kali.org'
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ date > calender.txt
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ echo 'ooh There is an error' 2>> log.txt
+ooh There is an error
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ echso 'ooh There is an error' 2>> log.txt
+                                                                                
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ wc Desktop 
+wc: Desktop: Is a directory
+      0       0       0 Desktop
+                                                                                
+┌──(kali㉿kali)-[~]
+└─$ w          
+ 15:29:47 up  2:09,  1 user,  load average: 0.08, 0.17, 0.17
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+kali     :1       :1               11:11   ?xdm?   9:54   0.03s /usr/libexec/gd
+                                                                                
+
+
